@@ -1,0 +1,38 @@
+mappa accessori -> properties:
+
+(1, 'Aria condizionata', 'Aircondition',		id:57 value_enum:59 (FLAT, HOUSE)
+(2, 'Palestra', 'Gym',
+(3, 'SPA', 'SPA',
+(4, 'Piscina', 'Swimming pool',
+(5, 'Home Theatre', 'Home Theatre',
+(6, 'Ascensore', 'Lift',
+(7, 'Camino', 'Fireplace',
+(8, 'Terrazza', 'Terrace',
+(9, 'Panelli solari', 'Solar panels',				id:101 value_enum:104 (HOUSE)
+(10, 'Autorimessa', 'Garage',
+(11, 'Posto parcheggio', 'Parking space',
+(12, 'Campo da tennis', 'Tennis camp',
+(13, 'Zona barbecue', 'Barbecue area',
+(14, 'Dependance', 'Dependance',
+(15, 'Oliveto', 'Olive trees',
+(16, 'Frutteto', 'Fruit garden',
+(17, 'Serra', 'Greenhouse',
+(18, 'Vigneto', 'Wineyard',
+(19, 'Portineria', 'Concierge',
+
+
+"For properties such as Multiple list should be a separate container for each property value of the property" CHE VUOL DIRE ESATTAMENTE??
+
+BASIN è DARSENA, BACINO (LAND)
+
+(TUTTI)	CREDITING (vedi IMMOBILI o altra cazzo di tabella..)
+
+(TUTTI) INSTALLMENTS sono i pagamenti RATEALI, quindi bisogna legare questa cosa al valore nella tabella immobili (forse)
+
+(TUTTI) AFTER SALE SERVICE (IMMOBILI, SI/NO)
+
+
+??? NON HANNO PROPERTIES PIU' SPECIFICHE ?
+!!! PRIAN al massimo accetta xml BILINGUE, quindi solo inglese+russo
+
+
