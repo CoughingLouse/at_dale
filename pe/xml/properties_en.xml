@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<properties>
+	<!-- Properties -->
+	
+	<property><!-- Multiple List -->
+	    <!-- For properties such as Multiple list should be a separate container for each property value of the property -->
+		<!-- For Property Type: Flat, House, Land, Commercial -->
+		<property_id>11</property_id>
+		<name>Location</name>		
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			1 	on seaside
+			2 	in wood
+			3 	in mountains
+			5 	in a big city
+			6 	in suburbs
+			7 	in a village
+			10 	on lakeside
+		-->
+	</property>
+	<property><!-- Multiple List -->
+	    <!-- For properties such as Multiple list should be a separate container for each property value of the property -->
+		<!-- For Property Type: Flat, House, Land, Commercial -->
+		<property_id>12</property_id>
+		<name>Distance from</name>		
+		<!-- property_value_enum property_value property_value_unit -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			13 	airport
+			14 	railroad station
+			15 	beach
+			16 	historical city center
+			17 	nearest big city
+			18 	metro station
+			19 	state border
+			20 	food stores
+			21 	medical facilities
+		-->
+		<!-- property_value Distance. numeric -->
+		<!-- property_value_unit Values: -->
+		<!--
+			property_value_enum 	name
+			148 	км
+			151 	мили
+			147 	м
+		-->		
+	</property>	
+	<property><!-- Multiple List -->
+	    <!-- For properties such as Multiple list should be a separate container for each property value of the property -->
+		<!-- For Property Type: Flat, House -->
+		<property_id>22</property_id>
+		<name>House's or compound's infrastructure and equipment</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			23 	fitness center
+			24 	pool
+			25 	restaurant
+			26 	beauty salon
+			27 	secure territory
+			28 	concierge
+			29 	secure parking
+			30 	elevator
+			31 	playground
+			32 	shops
+			33 	medical facilities
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: Flat, House -->
+		<property_id>34</property_id>
+		<name>Condition</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			35 	good condition
+			36 	completely repaired
+			37 	some repair needed
+			38 	must be completely repaired
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: Flat, House -->
+		<property_id>39</property_id>
+		<name>View from the window</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			40 	nothing special
+			41 	sea view
+			42 	river view
+			43 	lake view
+			44 	on sightseeings
+			45 	mountain view
+			46 	forest view
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: Flat, House -->
+		<property_id>47</property_id>
+		<name>Interior fit-out</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			48 	rough finishing
+			49 	fine finishing
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: Flat, House -->
+		<property_id>50</property_id>
+		<name>Furniture</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			51 	No furniture
+			52 	Complete furnishing
+			53 	Furniture only in kitchen
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: Flat, House -->
+		<property_id>54</property_id>
+		<name>Balcony / Terrace</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			55 	no
+			56 	yes
+		-->
+		<!-- property_value Balcony area. numeric (sq.m.) -->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: Flat, House -->
+		<property_id>57</property_id>
+		<name>Air conditioning</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			58 	no
+			59 	air conditioner
+			60 	central air conditioning
+			61 	other
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: Flat, House -->
+		<property_id>62</property_id>
+		<name>Heating</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			63 	no
+			64 	central heating
+			65 	other
+			153 	personal
+			154 	gas
+			155 	metered
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: Flat, House -->
+		<property_id>66</property_id>
+		<name>Alarm</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			67 	none
+			68 	fire
+			156 	security
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: Flat, House -->
+		<property_id>69</property_id>
+		<name>Internet access</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			70 	no Internet access
+			71 	high-speed Internet access 
+			72 	high-speed Internet access possible
+			73 	dial-up
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: Flat, House -->
+		<property_id>74</property_id>
+		<name>Telephone connection</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			75 	no
+			76 	yes
+		-->
+	</property>
+	<property><!-- Multiple List -->
+	    <!-- For properties such as Multiple list should be a separate container for each property value of the property -->
+		<!-- For Property Type: Flat, House -->
+		<property_id>77</property_id>
+		<name>Household appliances</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			78 	refrigerator
+			79 	washing-mashine
+			80 	dishwasher
+			81 	cooking plate
+			82 	TV
+			83 	microwave
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: Flat, House, Land, Commercial -->
+		<property_id>84</property_id>
+		<name>Crediting</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			85 	no
+			86 	Crediting possible
+			87 	Credited by developer
+			88 	Crediting assistance
+			89 	Crediting possible, but no assistance
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: Flat, House, Land, Commercial -->
+		<property_id>90</property_id>
+		<name>Installments</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			91 	no
+			92 	yes
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: Flat, House, Land, Commercial -->
+		<property_id>93</property_id>
+		<name>After-sale service</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			94 	no
+			95 	yes
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: House -->
+		<property_id>96</property_id>
+		<name>Water supply</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			97 	central water supply
+			98 	independent water supply
+			99 	well
+			100 other/no
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: House -->
+		<property_id>101</property_id>
+		<name>Electric power supply</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			102 	central power supply
+			103 	generator
+			104 	other
+			145 	no
+		-->
+	</property>
+	<property><!-- Multiple List -->
+	    <!-- For properties such as Multiple list should be a separate container for each property value of the property -->
+		<!-- For Property Type: House -->
+		<property_id>105</property_id>
+		<name>Located on the plot</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			106 	pool
+			107 	garden
+			108 	garage
+			109 	bathhouse
+			110 	outbuildings
+			111 	your own coastline
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: Land -->
+		<property_id>112</property_id>
+		<name>Appointment of land plot</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			113 	for residential development
+			114 	for commercial development
+			115 	agricultural
+		-->
+	</property>	
+	<property><!-- Single List -->
+		<!-- For Property Type: Flat, House -->
+		<property_id>131</property_id>
+		<name>The seller helps with furnishing</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			134 	yes
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: Flat, House -->
+		<property_id>133</property_id>
+		<name>Property is rented</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			135 	yes
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: House -->
+		<property_id>134</property_id>
+		<name>Is a part of compound</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			146 	yes
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: House -->
+		<property_id>135</property_id>
+		<name>Cellar</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			136 	yes
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: Land -->
+		<property_id>136</property_id>
+		<name>There're building on the land plot</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			137 	yes
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: Land -->
+		<property_id>137</property_id>
+		<name>Powered</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			138 	yes
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: Land -->
+		<property_id>138</property_id>
+		<name>Watered</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			139 	yes
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: Land -->
+		<property_id>139</property_id>
+		<name>Can be reached by car</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			140 	yes
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: Land -->
+		<property_id>140</property_id>
+		<name>Has a basin</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			141 	yes
+		-->
+	</property>
+	<property><!-- Single List -->
+		<!-- For Property Type: Commercial -->
+		<property_id>141</property_id>
+		<name>Business on sale</name>
+		<!-- property_value_enum -->
+		<!-- property_value_enum Values: -->
+		<!--
+			property_value_enum 	name
+			142 	yes
+		-->
+	</property>	
+</properties>

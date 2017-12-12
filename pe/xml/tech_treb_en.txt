@@ -1,0 +1,204 @@
+﻿In order to place a property on the Prian.ru web portal through xml you need to:
+- Generate an xml-file in an appropriate format using our sample;
+- Place this xml-file on your site;
+- Send us a link to your xml-file (for example, http://site.ru/gate.xml);
+- Set an automatic update of the xml-file on your server;
+- Tell us how often a file is updated.
+
+Samples are included.
+in Russian - gate.xml, in English - gate_en.xml
+
+Basic requirements and explanation of the fields described in the comments in the samples.
+
+Also following directories are included: 
+countries.xml, regions.xml, districts.xml, properties.xml, properties_en.xml
+
+Detailed explanation of the format xml:
+
+root - root tag
+
+objects - container of all properties
+
+object - container of one properties
+
+id -  property identifier, mandatory field that is unique for each property [a-z, 0-9]. 
+Typically it’s a property identifier in the database of the company.
+
+language_id - language version, numeric [0-9]. 1 for Russian, 3 for English. 
+It’s a mandatory field, very important for bilingual versions of xml. 
+If a company sends xml c bilingual version of each property, there should be two separate containers (properties) with different fields “language_id”. 
+If the xml-version is monolingual, then all the properties can have the same language_id.
+
+object_id - Type of the property. Mandatory, numeric [0-9] field.
+Choose from the following list:
+object_id	name
+Apartments:
+1 flat
+2 apartment
+11 townhouse
+14 penthouse
+20 maisonette
+21 studio
+22 loft
+Commercial real estate:
+5 cafe, restaurant
+6 retail/store
+7 office
+8 industry
+12 hotel
+18 apartment house
+13 miscellaneous commercial property
+Land:
+10 land plot
+19 private island
+Detached buildings:
+3 house
+24 cottage
+25 villa
+26 chalet
+27 bungalow
+28 manor
+29 castle
+30 farm
+32 mansion
+
+
+type_id – purpose of the property, a mandatory numeric [0-9] field, chosen from the following: 1 for sale, 2 for rent.
+
+object_status - status of your offers, a numeric field [0-9].
+Chosen from the following list
+For “sale”: 121 - is available for sale; 122 – booked; 123 – sold.
+For “rent”: 125 – is available for rent; 126 – booked; 127 – rented
+
+country_id – specification of a country, a mandatory numeric [0-9] field. 
+Should be chosen from countries.xml.
+
+region_id – specification of a region of the country, a mandatory numeric [0-9] field. Should be chosen from regions.xml. 
+Regions can be specified in the most popular countries only.
+
+district_id – location/town/city/resort, a numeric [0-9]. 
+Should be chosen from districts.xml. Mandatory for popular countries.
+district – location/town/city/resort. A text field, mandatory for non-popular countries.
+NB: At least one of the fields must be specified: district_id and / or district
+
+address Адрес, уточнение местности, если есть. Текстовое.
+
+longitude Гео-координаты - долгота. Числовое [0-9\.].
+latitude Гео-координаты - широта. Числовое [0-9\.].
+
+address – a specific address, if any available. A text field.
+
+longitude – specified coordinates (for Google Maps), a numeric field.
+latitude – specified coordinates (for Google Maps), a numeric field.
+
+currency_id – currency for the price, a required numeric [0-9] field.
+It must be chosen from the following: 1 for USD, 2 for Euro, 3 for Rubles.
+
+Properties for sale:
+price – selling price in specified currency (see above). Numeric [0-9] field.
+price_per_meter – selling price per square meter in specified currency (see above). Numeric field. 
+If not specified, then for the apartments and commercial real estate price per square meter is calculated automatically.
+
+Properties for rent:
+price_day – renting price per day in the abovementioned currency (see above). Numeric field.
+price_week – renting price per week in the abovementioned currency (see above). Numeric field.
+price_month – renting price per month in the abovementioned currency (see above). Numeric field.
+At least one of fields is required at least one of price.
+
+not_show_price Price by request/Not show price on site (on a detailed page, in the search results). Numeric field. (0/1).
+1	Not show
+Price still remains a required field
+
+rooms – total number of rooms. Numeric field.
+bedrooms – number of bedrooms. Numeric field.
+bathrooms – number of bathrooms. Numeric field.
+
+square – the total area  or area of a house in square meters. Numeric field.
+
+square_land – the area of a land lot in square meters. Numeric field.
+
+square_land_unit – unit of measurement. Numeric field, 
+chosen from the following list: 129 for sq.m., 128 for ares, 130 for hectares, 131 for acres.
+
+floor – what floor is it. Numeric field.
+total_floor – total storey number in the building. Numeric field.
+
+building_type – date of construction. Numeric field, 
+chosen from the following list: 117 for new homes, 118 for off-plan, 119 for resale.
+
+building_date – date of completion. Text field. 
+Examples:
+05/15/2012
+IV quarter 2014
+2015
+
+contact_id – Contact person on the object, ID contact person on our site. Numeric field.
+each object is automatically binded to default contact person from list of contact persons in the personal account on our website (if any). 
+The contact person is shown on the detailed page of the object.
+If you need to bind object to another contact person (not default contact person) 
+from the list of contacts in the Personal Area, 
+you can specify the ID of the contact person by looking at the Personal Area. 
+
+properties – a container for additional parameters
+The list of specifications is in the file properties.xml (English version properties_en.xml)
+
+property – a container for a specific parameter.
+
+If in properties.xml a parameter is specified as “Multiple list”, there can be many containers for each values ​​(see sample).
+Ie for the type “Multiple list” should be a separate container property for each property value property_value_enum (or property_value_enum property_value property_value_unit)
+example of multiple values for the property 22 (House's or compound's infrastructure and equipment):
+<property>
+	<property_id>22</property_id>
+	<property_value_enum>23</property_value_enum>
+</property>
+<property>
+	<property_id>22</property_id>
+	<property_value_enum>24</property_value_enum>
+</property>
+<property>
+	<property_id>22</property_id>
+	<property_value_enum>25</property_value_enum>
+</property>
+
+
+property_id – an identifier of a specific parameter, a numeric field, chosen from a list of parameters in properties.xml
+property_value_enum – value of the parameter, a numeric field, chosen from a list of parameters in properties.xml
+property_value – a custom value of a parameter, a numeric field. For example, terrace area.
+property_value_unit – unit of measurement. Numeric field, chosen from the list of units in properties.xml
+
+specialtxt – a slogan. A text field, which cannot exceed 40 characters
+description – text description of the object, a text field.
+In the description of the property while formatting the text you can use html-tags. If there’re any in the description, it is necessary to place the description in <! [CDATA [... ]]> container or screen instead of "<p>" -> ""&lt;p&gt;" ", instead of "<br />" -> "&lt;br /&gt;"
+allowed tags: <p> <div> <table> <tr> <td> <th> <br> <ul> <ol> <li> <b> <i> <strong> <em> <u>
+If there are any special characters – also screen them or place in a CDATA.
+Rules on placement of advertising and informational materials on the portal Prian.ru: http://prian.ru/article/rules.html
+
+images – container for images. A property without any image cannot be uploaded. Allowed image formats: *.jpg, *.gif, *.png
+Minimum requirements:
+Image width: 600 px
+Image height: 600 px
+
+Maximum values:
+Image width: no more than 6000 px
+Image height: no more than 6000 px
+File size: no more than 3 megabytes
+
+Recommended values:
+Recommended size of the horizontal image: 1200px wide or more
+Recommended size of vertical image: 800px in height or more.
+Recommended aspect ratio: 4:3
+
+image – container for each image.
+
+filename – URL of the image on the site. for example: http://site.ru/uploads/2007315979t.jpg
+
+iorder – how the images must be sorted on the portal. Numeric field.
+Image with iorder = 0 is default (displayed in search results). If iorder is not specified, images will be sorted in the order that is in xml-file.
+
+videos – container for video clip, one video is allowed for each property. Allowed video format is *.flv
+
+video – container for a clip.
+
+filename – URL of the video on the site. for example: http://site.ru/uploads/503622139085.flv
+
+middle_filename – URL of a screenshot, first image for video (optional). For example, http://site.ru/uploads/2007315979t.jpg

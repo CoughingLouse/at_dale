@@ -1,0 +1,877 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<regions>
+<!-- Регионы Греции/Regions of Greece -->
+<region>
+<region_id>45</region_id>
+<name_rus>Центральная Греция и Пелопоннес</name_rus>
+<name_eng>Central Greece and Peloponnese</name_eng>
+<country_id>5</country_id>
+</region>
+<region>
+<region_id>46</region_id>
+<name_rus>Северная Греция</name_rus>
+<name_eng>Northern Greece</name_eng>
+<country_id>5</country_id>
+</region>
+<region>
+<region_id>47</region_id>
+<name_rus>Крит</name_rus>
+<name_eng>Crete</name_eng>
+<country_id>5</country_id>
+</region>
+<region>
+<region_id>48</region_id>
+<name_rus>Острова Эгейского и Ионического морей</name_rus>
+<name_eng>Islands of the Aegean and Ionian seas</name_eng>
+<country_id>5</country_id>
+</region>
+<!-- Регионы Великобритании/Regions of Great Britain -->
+<region>
+<region_id>61</region_id>
+<name_rus>Англия</name_rus>
+<name_eng>England</name_eng>
+<country_id>6</country_id>
+</region>
+<region>
+<region_id>62</region_id>
+<name_rus>Шотландия</name_rus>
+<name_eng>Scotland</name_eng>
+<country_id>6</country_id>
+</region>
+<region>
+<region_id>63</region_id>
+<name_rus>Уэльс</name_rus>
+<name_eng>Wales</name_eng>
+<country_id>6</country_id>
+</region>
+<!-- Регионы Кипра/Regions of Cyprus -->
+<region>
+<region_id>36</region_id>
+<name_rus>Все регионы Кипра</name_rus>
+<name_eng>Cyprus</name_eng>
+<country_id>7</country_id>
+</region>
+<!-- Регионы Турции/Regions of Turkey -->
+<region>
+<region_id>25</region_id>
+<name_rus>Средиземноморское побережье</name_rus>
+<name_eng>Mediterranean Coast</name_eng>
+<country_id>38</country_id>
+</region>
+<region>
+<region_id>26</region_id>
+<name_rus>Эгейское побережье</name_rus>
+<name_eng>Aegean Coast</name_eng>
+<country_id>38</country_id>
+</region>
+<region>
+<region_id>27</region_id>
+<name_rus>Другие регионы Турции</name_rus>
+<name_eng>Other regions of Turkey</name_eng>
+<country_id>38</country_id>
+</region>
+<!-- Регионы Чехии/Regions of Czech -->
+<region>
+<region_id>37</region_id>
+<name_rus>Прага и Центральная Чехия</name_rus>
+<name_eng>Prague and Central Czech Republic</name_eng>
+<country_id>41</country_id>
+</region>
+<region>
+<region_id>38</region_id>
+<name_rus>Северная Чехия</name_rus>
+<name_eng>Northern Czech Republic</name_eng>
+<country_id>41</country_id>
+</region>
+<region>
+<region_id>39</region_id>
+<name_rus>Западная Чехия</name_rus>
+<name_eng>Western Czech Republic</name_eng>
+<country_id>41</country_id>
+</region>
+<region>
+<region_id>40</region_id>
+<name_rus>Южная и Восточная Чехия</name_rus>
+<name_eng>Southern and Eastern Czech Republic</name_eng>
+<country_id>41</country_id>
+</region>
+<!-- Регионы Венгрии/Regions of Hungary -->
+<region>
+<region_id>65</region_id>
+<name_rus>Все регионы Венгрии</name_rus>
+<name_eng>Hungary</name_eng>
+<country_id>42</country_id>
+</region>
+<!-- Регионы Испании/Regions of Spain -->
+<region>
+<region_id>5</region_id>
+<name_rus>Андалусия</name_rus>
+<name_eng>Andalusia</name_eng>
+<country_id>43</country_id>
+</region>
+<region>
+<region_id>6</region_id>
+<name_rus>Балеарские Острова</name_rus>
+<name_eng>Balearic Islands</name_eng>
+<country_id>43</country_id>
+</region>
+<region>
+<region_id>7</region_id>
+<name_rus>Валенсия и Мурсия</name_rus>
+<name_eng>Valencia and Murcia</name_eng>
+<country_id>43</country_id>
+</region>
+<region>
+<region_id>8</region_id>
+<name_rus>Канарские Острова</name_rus>
+<name_eng>Canary Islands</name_eng>
+<country_id>43</country_id>
+</region>
+<region>
+<region_id>9</region_id>
+<name_rus>Каталония</name_rus>
+<name_eng>Catalonia</name_eng>
+<country_id>43</country_id>
+</region>
+<region>
+<region_id>10</region_id>
+<name_rus>Центральная и Северная Испания</name_rus>
+<name_eng>Central and Northern Spain</name_eng>
+<country_id>43</country_id>
+</region>
+<!-- Регионы Италии/Regions of Italy -->
+<region>
+<region_id>28</region_id>
+<name_rus>Северная Италия</name_rus>
+<name_eng>Northern Italy</name_eng>
+<country_id>44</country_id>
+</region>
+<region>
+<region_id>29</region_id>
+<name_rus>Лигурия и Тоскана</name_rus>
+<name_eng>Liguria and Tuscany</name_eng>
+<country_id>44</country_id>
+</region>
+<region>
+<region_id>30</region_id>
+<name_rus>Центральная и Южная Италия</name_rus>
+<name_eng>Central and Southern Italy</name_eng>
+<country_id>44</country_id>
+</region>
+<region>
+<region_id>31</region_id>
+<name_rus>Калабрия</name_rus>
+<name_eng>Calabria</name_eng>
+<country_id>44</country_id>
+</region>
+<region>
+<region_id>32</region_id>
+<name_rus>Сицилия</name_rus>
+<name_eng>Sicily</name_eng>
+<country_id>44</country_id>
+</region>
+<region>
+<region_id>33</region_id>
+<name_rus>Сардиния</name_rus>
+<name_eng>Sardinia</name_eng>
+<country_id>44</country_id>
+</region>
+<!-- Регионы Литвы/Regions of Lithuania -->
+<region>
+<region_id>95</region_id>
+<name_rus>Все регионы Литвы</name_rus>
+<name_eng>Lithuania</name_eng>
+<country_id>45</country_id>
+</region>
+<!-- Регионы Польши/Regions of Poland -->
+<region>
+<region_id>104</region_id>
+<name_rus>Малопольское воеводство</name_rus>
+<name_eng>Lesser Poland Voivodeship</name_eng>
+<country_id>46</country_id>
+</region>
+<region>
+<region_id>105</region_id>
+<name_rus>Мазовецкое воеводство</name_rus>
+<name_eng>Masovian Voivodeship</name_eng>
+<country_id>46</country_id>
+</region>
+<region>
+<region_id>106</region_id>
+<name_rus>Любушское воеводство</name_rus>
+<name_eng>Lubusz Voivodeship</name_eng>
+<country_id>46</country_id>
+</region>
+<region>
+<region_id>107</region_id>
+<name_rus>Нижнесилезское воеводство</name_rus>
+<name_eng>Lower Silesian Voivodeship</name_eng>
+<country_id>46</country_id>
+</region>
+<region>
+<region_id>122</region_id>
+<name_rus>Поморское воеводство</name_rus>
+<name_eng>Pomeranian Voivodeship</name_eng>
+<country_id>46</country_id>
+</region>
+<region>
+<region_id>137</region_id>
+<name_rus>Силезское воеводство</name_rus>
+<name_eng>Silesian Voivodeship</name_eng>
+<country_id>46</country_id>
+</region>
+<!-- Регионы Словении/Regions of Slovenia -->
+<region>
+<region_id>68</region_id>
+<name_rus>Все регионы Словении</name_rus>
+<name_eng>Slovenia</name_eng>
+<country_id>47</country_id>
+</region>
+<!-- Регионы Словакии/Regions of Slovakia -->
+<region>
+<region_id>112</region_id>
+<name_rus>Нитранский край</name_rus>
+<name_eng>Nitra Region</name_eng>
+<country_id>48</country_id>
+</region>
+<region>
+<region_id>113</region_id>
+<name_rus>Братиславский край</name_rus>
+<name_eng>Bratislava Region</name_eng>
+<country_id>48</country_id>
+</region>
+<region>
+<region_id>114</region_id>
+<name_rus>Тренчинский край</name_rus>
+<name_eng>Trencin Region</name_eng>
+<country_id>48</country_id>
+</region>
+<region>
+<region_id>120</region_id>
+<name_rus>Прешовский край</name_rus>
+<name_eng>Presov Region</name_eng>
+<country_id>48</country_id>
+</region>
+<region>
+<region_id>127</region_id>
+<name_rus>Кошицкий край</name_rus>
+<name_eng>Kosice Region</name_eng>
+<country_id>48</country_id>
+</region>
+<region>
+<region_id>134</region_id>
+<name_rus>Жилинский край</name_rus>
+<name_eng>Zilina Region</name_eng>
+<country_id>48</country_id>
+</region>
+<!-- Регионы Финляндии/Regions of Finland -->
+<region>
+<region_id>21</region_id>
+<name_rus>Южная Финляндия</name_rus>
+<name_eng>Southern Finland</name_eng>
+<country_id>49</country_id>
+</region>
+<region>
+<region_id>22</region_id>
+<name_rus>Юго-Восточная Финляндия</name_rus>
+<name_eng>Southeastern Finland</name_eng>
+<country_id>49</country_id>
+</region>
+<region>
+<region_id>23</region_id>
+<name_rus>Западная и Центральная Финляндия</name_rus>
+<name_eng>Western and Central Finland</name_eng>
+<country_id>49</country_id>
+</region>
+<region>
+<region_id>24</region_id>
+<name_rus>Лапландия</name_rus>
+<name_eng>Lapland</name_eng>
+<country_id>49</country_id>
+</region>
+<!-- Регионы Франции/Regions of France -->
+<region>
+<region_id>15</region_id>
+<name_rus>Париж и пригороды</name_rus>
+<name_eng>Paris and Isle de France</name_eng>
+<country_id>50</country_id>
+</region>
+<region>
+<region_id>16</region_id>
+<name_rus>Лазурный Берег и Прованс</name_rus>
+<name_eng>Cote d'Azur and Provence</name_eng>
+<country_id>50</country_id>
+</region>
+<region>
+<region_id>17</region_id>
+<name_rus>Французские Альпы</name_rus>
+<name_eng>French Alps</name_eng>
+<country_id>50</country_id>
+</region>
+<region>
+<region_id>18</region_id>
+<name_rus>Южная Франция</name_rus>
+<name_eng>Southern France</name_eng>
+<country_id>50</country_id>
+</region>
+<region>
+<region_id>19</region_id>
+<name_rus>Другие регионы Франции</name_rus>
+<name_eng>other regions of France</name_eng>
+<country_id>50</country_id>
+</region>
+<region>
+<region_id>20</region_id>
+<name_rus>Французская Полинезия</name_rus>
+<name_eng>French Polynesia</name_eng>
+<country_id>50</country_id>
+</region>
+<!-- Регионы Хорватии/Regions of Croatia -->
+<region>
+<region_id>52</region_id>
+<name_rus>Истрия</name_rus>
+<name_eng>Istria</name_eng>
+<country_id>51</country_id>
+</region>
+<region>
+<region_id>53</region_id>
+<name_rus>Далмация</name_rus>
+<name_eng>Dalmatia</name_eng>
+<country_id>51</country_id>
+</region>
+<region>
+<region_id>54</region_id>
+<name_rus>Другие регионы Хорватии</name_rus>
+<name_eng>Other parts of Croatia</name_eng>
+<country_id>51</country_id>
+</region>
+<!-- Регионы Эстонии/Regions of Estonia -->
+<region>
+<region_id>55</region_id>
+<name_rus>Все регионы Эстонии</name_rus>
+<name_eng>Estonia</name_eng>
+<country_id>52</country_id>
+</region>
+<!-- Регионы Болгарии/Regions of Bulgaria -->
+<region>
+<region_id>1</region_id>
+<name_rus>Черноморское побережье</name_rus>
+<name_eng>Black Sea Area</name_eng>
+<country_id>71</country_id>
+</region>
+<region>
+<region_id>2</region_id>
+<name_rus>Район гор</name_rus>
+<name_eng>Mountain Area</name_eng>
+<country_id>71</country_id>
+</region>
+<region>
+<region_id>3</region_id>
+<name_rus>Северо-западная Болгария</name_rus>
+<name_eng>North-western Bulgaria</name_eng>
+<country_id>71</country_id>
+</region>
+<region>
+<region_id>4</region_id>
+<name_rus>Центральная Болгария</name_rus>
+<name_eng>Central Bulgaria</name_eng>
+<country_id>71</country_id>
+</region>
+<!-- Регионы Латвии/Regions of Latvia -->
+<region>
+<region_id>49</region_id>
+<name_rus>Все регионы Латвии</name_rus>
+<name_eng>Latvia</name_eng>
+<country_id>193</country_id>
+</region>
+<!-- Регионы Черногории/Regions of Montenegro -->
+<region>
+<region_id>34</region_id>
+<name_rus>Все регионы Черногории</name_rus>
+<name_eng>Montenegro</name_eng>
+<country_id>208</country_id>
+</region>
+<!-- Регионы Германии/Regions of Germany -->
+<region>
+<region_id>11</region_id>
+<name_rus>Южная Германия</name_rus>
+<name_eng>Southern Germany</name_eng>
+<country_id>283</country_id>
+</region>
+<region>
+<region_id>12</region_id>
+<name_rus>Берлин и окрестности</name_rus>
+<name_eng>Berlin area</name_eng>
+<country_id>283</country_id>
+</region>
+<region>
+<region_id>13</region_id>
+<name_rus>Восточная Германия</name_rus>
+<name_eng>Eastern Germany</name_eng>
+<country_id>283</country_id>
+</region>
+<region>
+<region_id>14</region_id>
+<name_rus>Западная Германия</name_rus>
+<name_eng>Western Germany</name_eng>
+<country_id>283</country_id>
+</region>
+<!-- Регионы Австрии/Regions of Austria -->
+<region>
+<region_id>59</region_id>
+<name_rus>Все регионы Австрии</name_rus>
+<name_eng>Austria</name_eng>
+<country_id>284</country_id>
+</region>
+<!-- Регионы Португалии/Regions of Portugal -->
+<region>
+<region_id>58</region_id>
+<name_rus>Все регионы Португалии</name_rus>
+<name_eng>Portugal</name_eng>
+<country_id>287</country_id>
+</region>
+<!-- Регионы Норвегии/Regions of Norway -->
+<region>
+<region_id>103</region_id>
+<name_rus>Все регионы Норвегии</name_rus>
+<name_eng>Norway</name_eng>
+<country_id>288</country_id>
+</region>
+<!-- Регионы Швеции/Regions of Sweden -->
+<region>
+<region_id>116</region_id>
+<name_rus>Эстергётланд</name_rus>
+<name_eng>Ostergotland County</name_eng>
+<country_id>290</country_id>
+</region>
+<region>
+<region_id>117</region_id>
+<name_rus>Емтланд</name_rus>
+<name_eng>Jamtland County</name_eng>
+<country_id>290</country_id>
+</region>
+<region>
+<region_id>118</region_id>
+<name_rus>Вестерноррланд</name_rus>
+<name_eng>Vasternorrland County</name_eng>
+<country_id>290</country_id>
+</region>
+<region>
+<region_id>119</region_id>
+<name_rus>Стокгольм и окрестности</name_rus>
+<name_eng>Stockholm</name_eng>
+<country_id>290</country_id>
+</region>
+<region>
+<region_id>128</region_id>
+<name_rus>Норрботтен</name_rus>
+<name_eng>Norrbotten County</name_eng>
+<country_id>290</country_id>
+</region>
+<!-- Регионы Грузии/Regions of Georgia -->
+<region>
+<region_id>84</region_id>
+<name_rus>Аджария</name_rus>
+<name_eng>Adjara</name_eng>
+<country_id>293</country_id>
+</region>
+<region>
+<region_id>85</region_id>
+<name_rus>Самцхе-Джавахети</name_rus>
+<name_eng>Samtskhe-Javakheti</name_eng>
+<country_id>293</country_id>
+</region>
+<region>
+<region_id>86</region_id>
+<name_rus>Мцхета-Мтианети</name_rus>
+<name_eng>Mtskheta-Mtianeti</name_eng>
+<country_id>293</country_id>
+</region>
+<region>
+<region_id>87</region_id>
+<name_rus>Тбилиси и окрестности</name_rus>
+<name_eng>Tbilisi</name_eng>
+<country_id>293</country_id>
+</region>
+<!-- Регионы Ирландии/Regions of Ireland -->
+<region>
+<region_id>88</region_id>
+<name_rus>Все регионы Ирландии</name_rus>
+<name_eng>Ireland</name_eng>
+<country_id>295</country_id>
+</region>
+<!-- Регионы ОАЭ/Regions of United Arab Emirates -->
+<region>
+<region_id>64</region_id>
+<name_rus>Все регионы ОАЭ</name_rus>
+<name_eng>United Arab Emirates</name_eng>
+<country_id>363</country_id>
+</region>
+<!-- Регионы США/Regions of USA -->
+<region>
+<region_id>41</region_id>
+<name_rus>Флорида</name_rus>
+<name_eng>Florida</name_eng>
+<country_id>368</country_id>
+</region>
+<region>
+<region_id>42</region_id>
+<name_rus>Калифорния</name_rus>
+<name_eng>California</name_eng>
+<country_id>368</country_id>
+</region>
+<region>
+<region_id>43</region_id>
+<name_rus>Нью-Йорк</name_rus>
+<name_eng>New York</name_eng>
+<country_id>368</country_id>
+</region>
+<region>
+<region_id>44</region_id>
+<name_rus>Другие регионы США</name_rus>
+<name_eng>Other regions of US</name_eng>
+<country_id>368</country_id>
+</region>
+<region>
+<region_id>121</region_id>
+<name_rus>Техас</name_rus>
+<name_eng>Texas</name_eng>
+<country_id>368</country_id>
+</region>
+<region>
+<region_id>123</region_id>
+<name_rus>Аризона</name_rus>
+<name_eng>Arizona</name_eng>
+<country_id>368</country_id>
+</region>
+<region>
+<region_id>124</region_id>
+<name_rus>Иллинойс</name_rus>
+<name_eng>Illinois</name_eng>
+<country_id>368</country_id>
+</region>
+<region>
+<region_id>125</region_id>
+<name_rus>Колорадо</name_rus>
+<name_eng>Colorado</name_eng>
+<country_id>368</country_id>
+</region>
+<region>
+<region_id>126</region_id>
+<name_rus>Мэриленд</name_rus>
+<name_eng>Maryland</name_eng>
+<country_id>368</country_id>
+</region>
+<region>
+<region_id>130</region_id>
+<name_rus>Оклахома</name_rus>
+<name_eng>Oklahoma</name_eng>
+<country_id>368</country_id>
+</region>
+<region>
+<region_id>131</region_id>
+<name_rus>Вайоминг</name_rus>
+<name_eng>Wyoming</name_eng>
+<country_id>368</country_id>
+</region>
+<region>
+<region_id>132</region_id>
+<name_rus>Вашингтон</name_rus>
+<name_eng>Washington</name_eng>
+<country_id>368</country_id>
+</region>
+<region>
+<region_id>133</region_id>
+<name_rus>Миннесота</name_rus>
+<name_eng>Minnesota</name_eng>
+<country_id>368</country_id>
+</region>
+<!-- Регионы Карибских островов/Regions of Caribbean Islands -->
+<region>
+<region_id>67</region_id>
+<name_rus>Все регионы Карибских островов</name_rus>
+<name_eng>Caribbean Islands</name_eng>
+<country_id>387</country_id>
+</region>
+<!-- Регионы Египта/Regions of Egypt -->
+<region>
+<region_id>35</region_id>
+<name_rus>Все регионы Египта</name_rus>
+<name_eng>Egypt</name_eng>
+<country_id>397</country_id>
+</region>
+<!-- Регионы Израиля/Regions of Israel -->
+<region>
+<region_id>66</region_id>
+<name_rus>Все регионы Израиля</name_rus>
+<name_eng>Israel</name_eng>
+<country_id>453</country_id>
+</region>
+<!-- Регионы Швейцарии/Regions of Switzerland -->
+<region>
+<region_id>60</region_id>
+<name_rus>Все регионы Швейцарии</name_rus>
+<name_eng>Switzerland</name_eng>
+<country_id>461</country_id>
+</region>
+<!-- Регионы Канады/Regions of Canada -->
+<region>
+<region_id>89</region_id>
+<name_rus>Провинция Квебек</name_rus>
+<name_eng>Quebec</name_eng>
+<country_id>466</country_id>
+</region>
+<region>
+<region_id>90</region_id>
+<name_rus>Новая Шотландия</name_rus>
+<name_eng>New Scotland</name_eng>
+<country_id>466</country_id>
+</region>
+<region>
+<region_id>91</region_id>
+<name_rus>Манитоба</name_rus>
+<name_eng>Manitoba</name_eng>
+<country_id>466</country_id>
+</region>
+<region>
+<region_id>92</region_id>
+<name_rus>Онтарио</name_rus>
+<name_eng>Ontario</name_eng>
+<country_id>466</country_id>
+</region>
+<region>
+<region_id>93</region_id>
+<name_rus>Британская Колумбия</name_rus>
+<name_eng>Brittish Columbia</name_eng>
+<country_id>466</country_id>
+</region>
+<region>
+<region_id>94</region_id>
+<name_rus>Альберта</name_rus>
+<name_eng>Alberta</name_eng>
+<country_id>466</country_id>
+</region>
+<!-- Регионы Марокко/Regions of Morocco -->
+<region>
+<region_id>98</region_id>
+<name_rus>Все регионы Марокко</name_rus>
+<name_eng>Marocco</name_eng>
+<country_id>469</country_id>
+</region>
+<!-- Регионы Доминиканской Республики/Regions of Dominican Republic -->
+<region>
+<region_id>56</region_id>
+<name_rus>Все регионы Доминиканской Республики</name_rus>
+<name_eng>Dominican Republic</name_eng>
+<country_id>474</country_id>
+</region>
+<!-- Регионы Нидерландов/Regions of Netherlands -->
+<region>
+<region_id>100</region_id>
+<name_rus>Южная Голландия</name_rus>
+<name_eng>South Holland</name_eng>
+<country_id>482</country_id>
+</region>
+<region>
+<region_id>101</region_id>
+<name_rus>Северная Голландия</name_rus>
+<name_eng>North Holland</name_eng>
+<country_id>482</country_id>
+</region>
+<region>
+<region_id>129</region_id>
+<name_rus>Гелдерланд</name_rus>
+<name_eng>Gelderland</name_eng>
+<country_id>482</country_id>
+</region>
+<region>
+<region_id>135</region_id>
+<name_rus>Гронинген</name_rus>
+<name_eng>Groningen</name_eng>
+<country_id>482</country_id>
+</region>
+<region>
+<region_id>136</region_id>
+<name_rus>Дренте</name_rus>
+<name_eng>Drenthe</name_eng>
+<country_id>482</country_id>
+</region>
+<!-- Регионы Монако/Regions of Monaco -->
+<region>
+<region_id>99</region_id>
+<name_rus>Все регионы Монако</name_rus>
+<name_eng>Monaco</name_eng>
+<country_id>487</country_id>
+</region>
+<!-- Регионы Таиланда/Regions of Thailand -->
+<region>
+<region_id>57</region_id>
+<name_rus>Все регионы Таиланда</name_rus>
+<name_eng>Thailand</name_eng>
+<country_id>488</country_id>
+</region>
+<!-- Регионы Мальты/Regions of Malta -->
+<region>
+<region_id>97</region_id>
+<name_rus>Все регионы Мальты</name_rus>
+<name_eng>Malta</name_eng>
+<country_id>528</country_id>
+</region>
+<!-- Регионы Бельгии/Regions of Belgium -->
+<region>
+<region_id>80</region_id>
+<name_rus>Брюссель и окрестности</name_rus>
+<name_eng>Bruxelles</name_eng>
+<country_id>542</country_id>
+</region>
+<region>
+<region_id>81</region_id>
+<name_rus>Фландрия</name_rus>
+<name_eng>Vlaanderen</name_eng>
+<country_id>542</country_id>
+</region>
+<region>
+<region_id>82</region_id>
+<name_rus>Валлония</name_rus>
+<name_eng>Walonreye</name_eng>
+<country_id>542</country_id>
+</region>
+<!-- Регионы Австралии/Regions of Australia -->
+<region>
+<region_id>69</region_id>
+<name_rus>Новый Южный Уэльс</name_rus>
+<name_eng>New South Wales</name_eng>
+<country_id>545</country_id>
+</region>
+<region>
+<region_id>70</region_id>
+<name_rus>Квинсленд</name_rus>
+<name_eng>Queensland</name_eng>
+<country_id>545</country_id>
+</region>
+<region>
+<region_id>71</region_id>
+<name_rus>Южная Австралия</name_rus>
+<name_eng>South Australia</name_eng>
+<country_id>545</country_id>
+</region>
+<region>
+<region_id>72</region_id>
+<name_rus>Виктория</name_rus>
+<name_eng>Victoria</name_eng>
+<country_id>545</country_id>
+</region>
+<region>
+<region_id>73</region_id>
+<name_rus>Северная Территория</name_rus>
+<name_eng>Northern Territory</name_eng>
+<country_id>545</country_id>
+</region>
+<region>
+<region_id>74</region_id>
+<name_rus>Западная Австралия</name_rus>
+<name_eng>Western Australia</name_eng>
+<country_id>545</country_id>
+</region>
+<region>
+<region_id>75</region_id>
+<name_rus>Тасмания</name_rus>
+<name_eng>Tasmania</name_eng>
+<country_id>545</country_id>
+</region>
+<!-- Регионы Новой Зеландии/Regions of New Zealand -->
+<region>
+<region_id>102</region_id>
+<name_rus>Все регионы Новой Зеландии</name_rus>
+<name_eng>New Zealand</name_eng>
+<country_id>547</country_id>
+</region>
+<!-- Регионы Филиппин/Regions of Philippines -->
+<region>
+<region_id>115</region_id>
+<name_rus>Лусон</name_rus>
+<name_eng>Luzon</name_eng>
+<country_id>550</country_id>
+</region>
+<!-- Регионы Албании/Regions of Albania -->
+<region>
+<region_id>77</region_id>
+<name_rus>Все регионы Албании</name_rus>
+<name_eng>Albania</name_eng>
+<country_id>553</country_id>
+</region>
+<!-- Регионы Сейшельских островов/Regions of Seychelles -->
+<region>
+<region_id>108</region_id>
+<name_rus>Все районы Сейшельских Островов</name_rus>
+<name_eng>Seychelles</name_eng>
+<country_id>555</country_id>
+</region>
+<!-- Регионы Индонезии/Regions of Indonesia -->
+<region>
+<region_id>50</region_id>
+<name_rus>Бали</name_rus>
+<name_eng>Bali</name_eng>
+<country_id>557</country_id>
+</region>
+<region>
+<region_id>51</region_id>
+<name_rus>Ломбок</name_rus>
+<name_eng>Lombok</name_eng>
+<country_id>557</country_id>
+</region>
+<!-- Регионы Андорры/Regions of Andorra -->
+<region>
+<region_id>78</region_id>
+<name_rus>Все регионы Андорры</name_rus>
+<name_eng>Andorra</name_eng>
+<country_id>559</country_id>
+</region>
+<!-- Регионы Сербии/Regions of Serbia -->
+<region>
+<region_id>109</region_id>
+<name_rus>Белград и окрестности</name_rus>
+<name_eng>Belgrade</name_eng>
+<country_id>566</country_id>
+</region>
+<region>
+<region_id>110</region_id>
+<name_rus>Воеводина</name_rus>
+<name_eng>Vojvodina</name_eng>
+<country_id>566</country_id>
+</region>
+<region>
+<region_id>111</region_id>
+<name_rus>Центральная Сербия</name_rus>
+<name_eng>Central Serbia</name_eng>
+<country_id>566</country_id>
+</region>
+<!-- Регионы Азербайджана/Regions of Azerbaijan -->
+<region>
+<region_id>76</region_id>
+<name_rus>Все регионы Азербайджана</name_rus>
+<name_eng>Azerbaijan</name_eng>
+<country_id>567</country_id>
+</region>
+<!-- Регионы Люксембурга/Regions of Luxembourg -->
+<region>
+<region_id>96</region_id>
+<name_rus>Все регионы Люксембурга</name_rus>
+<name_eng>Luxembourg</name_eng>
+<country_id>574</country_id>
+</region>
+<!-- Регионы Вьетнама/Regions of Vietnam -->
+<region>
+<region_id>83</region_id>
+<name_rus>Все регионы Вьетнама</name_rus>
+<name_eng>Vietnam</name_eng>
+<country_id>581</country_id>
+</region>
+<!-- Регионы Багамских островов/Regions of The Bahamas -->
+<region>
+<region_id>79</region_id>
+<name_rus>Все регионы Багамских Островов</name_rus>
+<name_eng>Bahamas</name_eng>
+<country_id>582</country_id>
+</region>
+</regions>

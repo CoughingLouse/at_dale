@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<root>
+<objects>
+
+	<object>
+		<id>#id#</id>
+		<language_id>#language_id#</language_id>
+		<object_id>#object_id#</object_id>
+		<type_id>#type_id#</type_id>
+		<object_status>#object_status#</object_status>
+		<country_id>#country_id#</country_id>
+
+		<region_id>#region_id#</region_id>
+		<district_id>#district_id#</district_id>
+		<district>#district#</district>
+		<address>#address#</address>
+		<longitude>#longitude#</longitude>
+		<latitude>#latitude#</latitude>
+
+		<currency_id>#currency_id#</currency_id>
+
+	 	<price>#price#</price>
+		<price_per_meter>#price_per_meter#</price_per_meter>
+		<price_day>#price_day#</price_day>
+		<price_week>#price_week#</price_week>
+		<price_month>#price_month#</price_month>
+		<not_show_price>#not_show_price#</not_show_price>
+		
+		<rooms>#rooms#</rooms>
+		<bedrooms>#bedrooms#</bedrooms>
+		<bathrooms>#bathrooms#</bathrooms>
+
+		<square>#square#</square>
+		<square_land>#square_land#</square_land>
+		<square_land_unit>#square_land_unit#</square_land_unit>
+
+		<floor>#floor#</floor>
+		<total_floor>#total_floor#</total_floor>
+		
+		<building_type>#building_type#</building_type>
+		<building_date>#building_date#</building_date>
+		<contact_id>#contact_id#</contact_id>
+		
+		<specialtxt>#specialtxt#</specialtxt>
+		<description><![CDATA[ #description# ]]></description>
+		
+		<properties>
+			<property>
+				<property_id>133</property_id>
+				<property_value_enum>135</property_value_enum>
+			</property>
+			<property>
+				<property_id>11</property_id>
+				<property_value_enum>10</property_value_enum>
+			</property>
+			<property>
+				<property_id>11</property_id>
+				<property_value_enum>1</property_value_enum>
+			</property>
+			<property>
+				<property_id>12</property_id>
+				<property_value_enum>14</property_value_enum>
+				<property_value>500</property_value>
+				<property_value_unit>147</property_value_unit>
+			</property>
+			<property>
+				<property_id>54</property_id>
+				<property_value_enum>56</property_value_enum>
+				<property_value>20</property_value>
+			</property>
+			<property>
+				<property_id>50</property_id>
+				<property_value_enum>53</property_value_enum>
+			</property>
+			<property>
+				<property_id>39</property_id>
+				<property_value_enum>43</property_value_enum>
+			</property>
+		</properties>
+		
+		<images>
+			<image>
+				<filename>http://static.prian.ru/uploads/2007_08/2007080422235292315979t.jpg</filename>
+				<iorder>0</iorder>
+			</image>
+			<image>
+				<filename>http://static.prian.ru/uploads/2007_08/2007080422235292315979t.jpg</filename>
+				<iorder>1</iorder>
+			</image>
+		</images>
+    
+		<videos>
+			<video>
+				<filename>http://static.prian.ru/uploads/2007_08/20090813163503622139085.flv</filename>
+				<middle_filename>http://static.prian.ru/uploads/2007_08/2007080422235292315979t.jpg</middle_filename>
+			</video>
+		</videos>
+    
+	</object>
+</objects>
+</root>

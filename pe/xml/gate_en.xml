@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<root>
+<objects><!-- All objects -->
+	<object><!-- One object -->
+		<id>1</id><!-- ID, object inner id - important field -->
+		<language_id>1</language_id><!-- Language (Russian default) -->
+		<!-- 
+			language_id name
+			1	        Russian
+			3           English
+		-->
+		
+		<!-- Basic specifications: -->
+		
+		<object_id>1</object_id><!-- Property type - important field -->
+		<!--			
+			object_id 	name
+			Flat:
+			1 			flat
+			2 			apartment
+			11 			townhouse
+			14 			penthouse
+			20 			maisonette
+			21 			studio
+			22 			loft
+			Commercial:
+			5 			cafe, restaurant
+			6 			shop
+			7 			office
+			8 			factory
+			12 			hotel
+			13 			other commercial property
+			18 			commercial apartment building
+			Land:
+			10 			land site
+			19 			private island
+			House:
+			3 			house
+			24 			cottage
+			25 			villa
+			26 			chalet
+			27 			bungalow
+			28 			manor
+			29 			castle
+			30 			farm
+			32 			mansion
+		-->
+		
+		<type_id>1</type_id><!-- Purpose of property - important field -->
+		<!-- 
+			type_id name
+			1	    Sale
+			2       Rent
+		-->
+		
+		<object_status>121</object_status><!-- Status -->
+		<!-- 
+			object_status	name
+			Sale:
+			121 			for sale
+			122 			booked
+			123 			sold
+			Rent:
+			125 			for rent
+			126 			booked
+			127 			not available anymore
+		-->
+		
+		<country_id>1</country_id><!-- Country - number - important field -->	 
+		<!-- look the file countries.xml-->
+		<region_id>1</region_id><!--  Region of country - number -->
+		<!-- look the file regions.xml-->
+		<!-- One of fields must be filled: district_id and/or district -->
+		<district_id>63</district_id><!--  District, city - number -->
+		<!-- look the file districts.xml-->
+		<district>Kavarna</district><!-- District, city - string -->
+		<!-- One of fields must be filled: district_id and/or district -->
+		<address>Avren, st Sample, 4/96</address><!-- Address -->
+		<!-- Geo-coordinates: -->
+		<longitude>15.255119</longitude><!-- longitude -->
+		<latitude>54.525961</latitude><!-- latitude -->		
+		
+		<currency_id>1</currency_id><!-- Currency - important field -->
+		<!-- 
+			currency_id name
+			1	    USD
+			2       EUR
+			3       RUR
+		-->			
+		
+		<!-- only for SALE type -->
+	 	<price>255000</price><!-- Price in currency (see above) - important field for sale -->
+		<price_per_meter>255</price_per_meter><!-- Price per square meter in currency -->
+		<!-- only for SALE type -->
+						
+		<!-- only for RENT type - at least one must be set -->
+		<price_day>25</price_day>     <!-- Rent price per day   in currency (see above) -->
+		<price_week>150</price_week>  <!-- Rent price per week  in currency (see above) -->
+		<price_month>450</price_month><!-- Rent price per month in currency (see above) -->
+		<!-- only for RENT type -->	
+		
+		<not_show_price>1</not_show_price><!-- Price by request/Not show price on site -->
+		
+		<rooms>2</rooms><!-- Rooms amount -->
+		<bedrooms>1</bedrooms><!-- Number of bedrooms -->	
+		<bathrooms>1</bathrooms><!-- Number of bathrooms -->		
+			
+		<square>30</square><!-- Floor Area/House Area (sq.m) -->
+		<square_land>300</square_land><!-- Plot Area -->	
+		<square_land_unit>128</square_land_unit><!-- Unit of Plot Area measurement (sq.m default)-->	
+		<!-- 
+			square_land_unit	name
+			129 				sq.m
+			128 				ares
+			130 				hectares
+			131 				acres
+		-->
+			
+		<floor>3</floor><!-- Storey -->
+		<total_floor>3</total_floor><!-- Number of storeys in the house/building -->
+		
+		<building_type>118</building_type><!-- Construction date -->
+		<!-- 
+			building_type	name
+			117	    		New building
+			118       		Off-plan
+			119       		Resale
+		-->
+		<building_date>15.05.2012</building_date><!-- Date of construction/Construction deadline. Not valid without building_type -->
+		
+		<contact_id>1751</contact_id><!-- Contact person on the object, ID contact person on our site. The field is filled only for contact persons is not the default. -->
+		
+		<specialtxt>Bungalow in the picturesque district of Varna</specialtxt><!-- Slogan, short description. Not more than 40 characters -->	
+		<description><![CDATA[ <p>Some text Some text Some text Some text Some text</p> ]]></description><!-- Full text object description -->
+		<!-- If the object description contains html-tags, then put the description in a CDATA: 
+		<description><![CDATA[ <p>Some text Some text Some text Some text Some text</p><br> ]]></description> .
+		Allowed html-tags: <p> <div> <table> <tr> <td> <br> <ul> <li> <b> <i> -->
+		
+		<!-- Additional properties: -->
+		<properties>
+		<!-- look the file properties_en.xml, For properties such as Multiple list should be a separate container for each property value of the property -->
+			<property><!-- Property -->
+				<property_id>133</property_id>
+				<property_value_enum>135</property_value_enum>
+			</property>
+			<property>
+				<property_id>11</property_id>
+				<property_value_enum>10</property_value_enum>
+			</property>
+			<property>
+				<property_id>11</property_id>
+				<property_value_enum>1</property_value_enum>
+			</property>
+			<property>
+				<property_id>12</property_id>
+				<property_value_enum>14</property_value_enum>
+				<property_value>500</property_value>
+				<property_value_unit>147</property_value_unit>
+			</property>
+			<property>
+				<property_id>54</property_id>
+				<property_value_enum>56</property_value_enum>
+				<property_value>20</property_value>
+			</property>
+			<property>
+				<property_id>50</property_id>
+				<property_value_enum>53</property_value_enum>
+			</property>
+			<property>
+				<property_id>39</property_id>
+				<property_value_enum>43</property_value_enum>
+			</property>
+		</properties>
+		
+		<images><!-- Images 
+		             Image with iorder = 0 - will be shown in the search results.
+		             Format: *.jpg, *.gif, *.png
+                     The desired size of the horizontal image 1200px wide or more, the proportion - 4x3.
+                     Vertical image - 800px in height or more. 
+                     Weight of one photo 3MB or less.
+				-->
+			<image>
+				<filename>http://static.prian.ru/uploads/2007_08/2007080422235292315979t.jpg</filename>
+				<iorder>0</iorder>
+			</image>
+			<image>
+				<filename>http://static.prian.ru/uploads/2007_08/2007080422235292315979t.jpg</filename>
+				<iorder>1</iorder>
+			</image>
+			<image>
+				<filename>http://static.prian.ru/uploads/2007_08/2007080422235292315979t.jpg</filename>
+				<iorder>2</iorder>
+			</image>
+			<image>
+				<filename>http://static.prian.ru/uploads/2007_08/2007080422235292315979t.jpg</filename>
+				<iorder>3</iorder>
+			</image>
+			<image>
+				<filename>http://static.prian.ru/uploads/2007_08/2007080422235292315979t.jpg</filename>
+				<iorder>4</iorder>
+			</image>
+			<image>
+				<filename>http://static.prian.ru/uploads/2007_08/2007080422235292315979t.jpg</filename>
+				<iorder>5</iorder>
+			</image>
+			<image>
+				<filename>http://static.prian.ru/uploads/2007_08/2007080422235292315979t.jpg</filename>
+				<iorder>6</iorder>
+			</image>
+			<image>
+				<filename>http://static.prian.ru/uploads/2007_08/2007080422235292315979t.jpg</filename>
+				<iorder>7</iorder>
+			</image>
+		</images>
+		<videos><!-- Video. 
+					 One video per object
+					 Format *.flv		             
+				-->
+			<video>
+				<filename>http://static.prian.ru/uploads/2007_08/20090813163503622139085.flv</filename>
+				<middle_filename>http://static.prian.ru/uploads/2007_08/2007080422235292315979t.jpg</middle_filename>
+			</video>
+		</videos>
+	</object>
+</objects>
+</root>
